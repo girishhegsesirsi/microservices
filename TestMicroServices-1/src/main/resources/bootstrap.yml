@@ -1,0 +1,7 @@
+#server:
+# port: 9093
+spring:
+ application:
+   name: TEST-SERVICE
+ cloud:    config:      uri: http://localhost:9092 profiles:    active: dev
+        
